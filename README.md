@@ -20,6 +20,10 @@ html2text
 requests
 ```
 
+To get the cookie follow this from your google-chrome browser via developer options & network tab. Allow the page to load and look for `graphql` requests as shown and click `Copy as fetch (Node.js)` option as shown in the picture below & convert it to a python dictionary.
+
+![grab the headers from leetcode.com](./images/leetcode.png)
+
 ```JavaScript
 fetch("https://leetcode.com/problems/flipping-an-image/description/", {
   // Only headers is required
@@ -44,10 +48,6 @@ fetch("https://leetcode.com/problems/flipping-an-image/description/", {
   "method": "GET"
 });
 ```
-
-To get the cookie follow this from your google-chrome browser via developer options & network tab. Allow the page to load and look for `graphql` requests as shown and click `Copy as fetch (Node.js)` option as shown in the picture below & convert it to a python dictionary.
-
-![grab the headers from leetcode.com](./images/leetcode.png)
 
 Now you are ready to use this as follows:
 
