@@ -178,20 +178,6 @@ def create_project_structure(leetcode_url, coding_language):
         f.write("# Problem Description\n")
         f.write(question_content)
 
-    # Update the main README.md
-    update_main_read_md(problem_slug, leetcode_url)
-
-
-def update_main_read_md(problem_name, leetcode_url):
-    # Update the main README.md
-    main_readme_path = os.path.join("./", "README.md")
-    problem_link = (
-        f"| [{problem_name}](Sources/{problem_name}/README.md) | {leetcode_url} |\n"
-    )
-
-    with open(main_readme_path, "a") as f:  # Use 'a' for appending
-        f.write(problem_link)
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(

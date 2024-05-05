@@ -93,6 +93,3 @@ Coding language by default is Python3. You can choose from one of the following 
 Output of the finished product:
 
 ![Scraped Leetcode question](./images/leetcode_question.png)
-
-| [sort-array-by-parity](Sources/sort-array-by-parity/README.md) | https://leetcode.com/problems/sort-array-by-parity/description/ |
-| [sort-array-by-parity](Sources/sort-array-by-parity/README.md) | https://leetcode.com/problems/sort-array-by-parity/description/ |
